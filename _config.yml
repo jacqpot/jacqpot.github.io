@@ -1,11 +1,11 @@
 # Site settings
 author: Jacques Potgieter
-title: 
+title: From Carpenter to Software Engineer.
 header-img: img/home-bg.png
 email: potgieter.g.jacques@gmail.com
 copyright_name: Jacques Potgieter
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A blog about what and how i'm learning in school and beyond.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jacqpot
