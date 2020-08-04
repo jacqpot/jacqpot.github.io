@@ -16,7 +16,7 @@ get "/post/index" do
       erb :"/post/index"
 end
 ```
-the above code is redundant. and gives more information to the user than we need to. To refactor you could do somthing like this:
+the above code is redundant. It gives more information to the user than needed. To refactor you could do somthing like this:
 ```
 get "/posts" do 
      erb:"/post/index"
@@ -49,7 +49,7 @@ here you can see that my has_many relationships are singular! That doesnt make a
     has_many :apointments 
     belongs_to :provider 
 ```
-isn't that better. Ruby agrees with the changes and we no longer are thown errors. It might seem silly but these patterns are alot more serious when you have 30 controllers and a complex platform. 
+isn't that better. Ruby agrees with the changes and we are no longer thown errors. It might seem silly but these patterns are alot more serious when you have 30 controllers and a complex platform. 
 
 
 The project wet my apatite for web development and im excited to continue! P.S. ActiveRecord is Amazing!
